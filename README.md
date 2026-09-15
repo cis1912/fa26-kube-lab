@@ -1,8 +1,8 @@
 # Kube Demo
 
-Time to toy around with Kubernetes! 
+Time to toy around with Kubernetes!
 
-Credit: This is based off of the demo created by the Fall 2024 CIS 1912 Staff 
+Credit: This is based off of the demo created by the Fall 2024 CIS 1912 Staff
 
 ## Installation
 
@@ -24,7 +24,7 @@ $ kubectl config use-context kind-cis1912
 In this lab, we'll be using `kubectl` to create some resources and interact with them. We'll start with 2048. First, let's manually create a pod for the 2048 image:
 
 ```
-$ kubectl run lab-2048 --image=gchr.io/cis1912/2048 --port=80
+$ kubectl run lab-2048 --image=ghcr.io/cis1912/2048 --port=80
 ```
 
 Now use `kubectl get pods` to see our list of running pods. If the prior command worked, you should see the 2048 pod!
