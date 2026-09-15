@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: game-2048
-          image: alexwhen/docker-2048:latest
+          image: gchr.io/cis1912/2048:latest
           ports:
             - containerPort: 80
 ---
